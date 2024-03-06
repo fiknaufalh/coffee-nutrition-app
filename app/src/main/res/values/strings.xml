@@ -8,10 +8,15 @@
     <string name="home_title">Coffee Nutrition</string>
     <string name="coffee_name">Coffee Name</string>
     <string name="description">Description</string>
-    <string name="lorem_ipsum">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</string>
+    <string name="lorem_ipsum">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</string>
     <string name="coffee_detail_title">Coffee Name</string>
     <string name="coffee_details_heading">Coffee Details</string>
     <string name="splash_description">Welcome to Coffee Nutrition!</string>
+    <string name="calories">Calories:</string>
+    <string name="protein">Protein:</string>
+    <string name="carbs">Carbs:</string>
+    <string name="fats">Fats:</string>
+    <string name="sugar">Sugar:</string>
 
     <string-array name="data_name">
         <item>Oleato Gingerbread Oatmilk Latte</item>
@@ -104,6 +109,161 @@
         <item>https://globalassets.starbucks.com/digitalassets/products/bev/SBX20220607_1549_SugarCookieOatLatte-CAN-onGreen-MOP_1800.jpg?impolicy=1by1_wide_topcrop_630</item>
         <item>https://globalassets.starbucks.com/digitalassets/products/bev/SBX20220607_1401_CaramelBruleeLatte-onGreen-MOP_1800.jpg?impolicy=1by1_wide_topcrop_630</item>
         <item>https://globalassets.starbucks.com/digitalassets/products/bev/ChestnutPralineLatte-onGreen.jpg?impolicy=1by1_wide_topcrop_630</item>
+    </string-array>
+
+    <string-array name="data_calories">
+        <item>350.0</item>
+        <item>380.0</item>
+        <item>250.0</item>
+        <item>580.0</item>
+        <item>470.0</item>
+        <item>460.0</item>
+        <item>450.0</item>
+        <item>15.0</item>
+        <item>5.0</item>
+        <item>5.0</item>
+        <item>5.0</item>
+        <item>5.0</item>
+        <item>10.0</item>
+        <item>10.0</item>
+        <item>10.0</item>
+        <item>10.0</item>
+        <item>110.0</item>
+        <item>10.0</item>
+        <item>10.0</item>
+        <item>10.0</item>
+        <item>140.0</item>
+        <item>10.0</item>
+        <item>35.0</item>
+        <item>170.0</item>
+        <item>120.0</item>
+        <item>310.0</item>
+        <item>330.0</item>
+        <item>390.0</item>
+    </string-array>
+
+    <string-array name="data_protein">
+        <item>3.0</item>
+        <item>2.0</item>
+        <item>2.0</item>
+        <item>9.0</item>
+        <item>8.0</item>
+        <item>2.0</item>
+        <item>2.0</item>
+        <item>1.0</item>
+        <item>1.0</item>
+        <item>1.0</item>
+        <item>1.0</item>
+        <item>1.0</item>
+        <item>1.0</item>
+        <item>1.0</item>
+        <item>1.0</item>
+        <item>1.0</item>
+        <item>7.0</item>
+        <item>1.0</item>
+        <item>1.0</item>
+        <item>1.0</item>
+        <item>9.0</item>
+        <item>1.0</item>
+        <item>1.0</item>
+        <item>9.0</item>
+        <item>2.0</item>
+        <item>12.0</item>
+        <item>12.0</item>
+        <item>14.0</item>
+    </string-array>
+
+    <string-array name="data_fats">
+        <item>20.0</item>
+        <item>34.0</item>
+        <item>17.0</item>
+        <item>38.0</item>
+        <item>38.0</item>
+        <item>36.0</item>
+        <item>36.0</item>
+        <item>0.0</item>
+        <item>0.0</item>
+        <item>0.0</item>
+        <item>0.0</item>
+        <item>0.0</item>
+        <item>0.0</item>
+        <item>0.0</item>
+        <item>0.0</item>
+        <item>0.0</item>
+        <item>4.0</item>
+        <item>0.0</item>
+        <item>0.0</item>
+        <item>0.0</item>
+        <item>5.0</item>
+        <item>0.0</item>
+        <item>0.0</item>
+        <item>9.0</item>
+        <item>4.0</item>
+        <item>14.0</item>
+        <item>14.0</item>
+        <item>14.0</item>
+    </string-array>
+
+    <string-array name="data_carbs">
+        <item>41.0</item>
+        <item>19.0</item>
+        <item>24.0</item>
+        <item>53.0</item>
+        <item>29.0</item>
+        <item>33.0</item>
+        <item>32.0</item>
+        <item>2.0</item>
+        <item>0.0</item>
+        <item>0.0</item>
+        <item>0.0</item>
+        <item>0.0</item>
+        <item>0.0</item>
+        <item>0.0</item>
+        <item>0.0</item>
+        <item>0.0</item>
+        <item>10.0</item>
+        <item>0.0</item>
+        <item>0.0</item>
+        <item>0.0</item>
+        <item>14.0</item>
+        <item>0.0</item>
+        <item>2.0</item>
+        <item>14.0</item>
+        <item>22.0</item>
+        <item>35.0</item>
+        <item>42.0</item>
+        <item>52.0</item>
+    </string-array>
+
+    <string-array name="data_sugar">
+        <item>41.0</item>
+        <item>19.0</item>
+        <item>24.0</item>
+        <item>53.0</item>
+        <item>29.0</item>
+        <item>33.0</item>
+        <item>32.0</item>
+        <item>2.0</item>
+        <item>0.0</item>
+        <item>0.0</item>
+        <item>0.0</item>
+        <item>0.0</item>
+        <item>0.0</item>
+        <item>0.0</item>
+        <item>0.0</item>
+        <item>0.0</item>
+        <item>10.0</item>
+        <item>0.0</item>
+        <item>0.0</item>
+        <item>0.0</item>
+        <item>14.0</item>
+        <item>0.0</item>
+        <item>2.0</item>
+        <item>14.0</item>
+        <item>22.0</item>
+        <item>35.0</item>
+        <item>42.0</item>
+        <item>52.0</item>
     </string-array>
 
 </resources>

@@ -34,13 +34,23 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         val dataName = resources.getStringArray(R.array.data_name)
         val dataDescription = resources.getStringArray(R.array.data_description)
         val dataImage = resources.getStringArray(R.array.data_image)
+        val dataCalories = resources.getStringArray(R.array.data_calories)
+        val dataProtein = resources.getStringArray(R.array.data_protein)
+        val dataFats = resources.getStringArray(R.array.data_fats)
+        val dataCarbs = resources.getStringArray(R.array.data_carbs)
+        val dataSugar = resources.getStringArray(R.array.data_sugar)
 
         val listCoffee = ArrayList<Coffee>()
         for (i in dataName.indices) {
             val coffee = Coffee(
                 dataName[i],
                 dataDescription[i],
-                dataImage[i]
+                dataImage[i],
+                dataCalories[i].toDouble(),
+                dataProtein[i].toDouble(),
+                dataFats[i].toDouble(),
+                dataCarbs[i].toDouble(),
+                dataSugar[i].toDouble()
             )
             listCoffee.add(coffee)
         }
