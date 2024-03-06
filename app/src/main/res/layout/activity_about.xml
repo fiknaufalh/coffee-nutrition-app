@@ -13,6 +13,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
+
         <androidx.appcompat.widget.Toolbar
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -47,6 +48,7 @@
                     android:text="@string/about_me"
                     android:textAlignment="center"
                     android:textColor="@color/white"
+                    android:fontFamily="@font/poppins_bold_semi"
                     android:textSize="28sp" />
 
                 <ImageButton
@@ -61,45 +63,64 @@
 
         </androidx.appcompat.widget.Toolbar>
     </com.google.android.material.appbar.AppBarLayout>
-    <ScrollView
+    <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:paddingHorizontal="16dp">
-        <LinearLayout
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="-10dp"
+            android:background="@drawable/rounder_corner" />
+
+        <ScrollView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
-            <de.hdodenhof.circleimageview.CircleImageView
-                android:id="@+id/tv_detail_photo"
-                android:src="@drawable/profile_picture"
-                android:layout_gravity="center"
-                android:layout_width="240dp"
-                android:layout_height="240dp"
-                android:layout_marginTop="16dp"
-                android:layout_marginBottom="8dp"
-                app:civ_border_width="4dp"
-                app:civ_border_color="@color/black"
-                />
-            <TextView
-                android:id="@+id/tv_name"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textSize="20sp"
-                android:textColor="@color/black"
-                android:textAlignment="center"
-                android:layout_marginBottom="8dp"
-                android:text="@string/about_name"
-                />
-            <TextView
-                android:id="@+id/tv_email"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textSize="18sp"
-                android:textAlignment="center"
-                android:text="@string/about_email"
-                />
+            android:paddingHorizontal="16dp">
 
-        </LinearLayout>
-    </ScrollView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/tv_detail_photo"
+                    android:src="@drawable/profile_picture"
+                    android:layout_gravity="center"
+                    android:layout_width="240dp"
+                    android:layout_height="240dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="8dp"
+                    app:civ_border_color="@color/choco"
+                    app:civ_border_width="10dp"
+                    />
+                <TextView
+                    android:id="@+id/tv_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_bold_semi"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    android:textAlignment="center"
+                    android:layout_marginBottom="0dp"
+                    android:text="@string/about_name"
+                    />
+                <TextView
+                    android:id="@+id/tv_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_italic"
+                    android:textSize="18sp"
+                    android:textAlignment="center"
+                    android:text="@string/about_email"
+                    />
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </FrameLayout>
 
 </LinearLayout>

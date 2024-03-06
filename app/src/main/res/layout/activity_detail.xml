@@ -45,7 +45,7 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight=".50"
-                    android:fontFamily="@font/poppins_regular"
+                    android:fontFamily="@font/poppins_bold_semi"
                     android:textAlignment="center"
                     android:textColor="@color/white"
                     android:textSize="28sp"
@@ -79,8 +79,8 @@
             android:id="@+id/tv_detail_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/poppins_regular"
-            android:textSize="24sp"
+            android:fontFamily="@font/poppins_bold_semi"
+            android:textSize="18sp"
             android:textAlignment="center"
             android:text="@string/coffee_detail_title"/>
 
@@ -98,7 +98,7 @@
             android:layout_height="30dp"
             android:layout_marginTop="18dp"
             android:padding="5dp"
-            android:background="@color/choco"
+            android:background="@drawable/rounder_corner"
             android:contentDescription="@string/back_button"
             android:scaleType="fitCenter"
             android:src="@drawable/icon_share"
