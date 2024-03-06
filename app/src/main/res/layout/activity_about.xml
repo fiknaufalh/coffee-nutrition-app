@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".activities.AboutActivity">
+    tools:context=".activities.AboutActivity"
+    android:background="@color/white">
 
     <com.google.android.material.appbar.AppBarLayout
         app:layout_constraintStart_toStartOf="parent"
@@ -113,6 +114,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/poppins_italic"
+                    android:textColor="@color/black"
                     android:textSize="18sp"
                     android:textAlignment="center"
                     android:text="@string/about_email"
