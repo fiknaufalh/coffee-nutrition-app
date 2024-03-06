@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.DetailActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/toolbar"
+            android:background="@color/choco"
+            android:minHeight="?attr/actionBarSize"
+            app:contentInsetLeft="0dp"
+            app:contentInsetStart="0dp"
+            android:theme="@style/Theme.CoffeeNutrition">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/btn_back"
+                    android:layout_width="48dp"
+                    android:layout_height="25dp"
+                    android:background="@null"
+                    android:contentDescription="@string/back_button"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/icon_back"
+                    app:tint="@color/white" />
+
+                <TextView
+                    android:id="@+id/tv_heading"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".50"
+                    android:fontFamily="@font/poppins_regular"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="28sp"
+                    android:paddingEnd="32dp"
+                    android:paddingStart="0dp"
+                    android:text="@string/coffee_details_heading"/>
+
+            </LinearLayout>
+
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="18dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img_detail"
+            android:layout_gravity="center"
+            android:layout_width="240dp"
+            android:layout_height="240dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="4dp"
+            app:civ_border_width="4dp"
+            app:civ_border_color="#959595"/>
+
+        <TextView
+            android:id="@+id/tv_detail_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_regular"
+            android:textSize="24sp"
+            android:textAlignment="center"
+            android:text="@string/coffee_detail_title"/>
+
+        <TextView
+            android:id="@+id/tv_detail_description"
+            android:justificationMode="inter_word"
+            android:layout_width="match_parent"
+            android:fontFamily="@font/poppins_regular"
+            android:layout_height="wrap_content"
+            android:text="@string/lorem_ipsum"/>
+
+        <ImageButton
+            android:id="@+id/btn_share"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="18dp"
+            android:padding="5dp"
+            android:background="@color/choco"
+            android:contentDescription="@string/back_button"
+            android:scaleType="fitCenter"
+            android:src="@drawable/icon_share"
+            app:tint="@color/white"
+            android:layout_gravity="center" />
+
+    </LinearLayout>
+
+</LinearLayout>

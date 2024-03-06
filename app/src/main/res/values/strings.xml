@@ -1,3 +1,108 @@
 <resources>
     <string name="app_name">Coffee Nutrition</string>
+    <string name="back_button">Back Button</string>
+    <string name="about_me">About Me</string>
+    <string name="empty_space">Empty Space</string>
+    <string name="about_name">Fikri Naufal Hamdi</string>
+    <string name="about_email">fiknaufalh@gmail.com</string>
+    <string name="home_title">Coffee Nutrition</string>
+    <string name="coffee_name">Coffee Name</string>
+    <string name="description">Description</string>
+    <string name="lorem_ipsum">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</string>
+    <string name="coffee_detail_title">Coffee Name</string>
+    <string name="coffee_details_heading">Coffee Details</string>
+
+    <string-array name="data_name">
+        <item>Oleato Gingerbread Oatmilk Latte</item>
+        <item>Oleato Golden Foam™ Cold Brew</item>
+        <item>Oleato™ Caffè Latte with Oatmilk</item>
+        <item>Oleato™ Iced Shaken Espresso</item>
+        <item>Iced Chai Tea Latte</item>
+        <item>Iced Matcha Tea Latte</item>
+        <item>Paradise Drink Starbucks Refreshers®</item>
+        <item>Dragon Drink® Starbucks Refreshers®</item>
+        <item>Caffè Americano</item>
+        <item>Featured Blonde Roast</item>
+        <item>Oleato Gingerbread Oatmilk Latte</item>
+        <item>Oleato Golden Foam™ Cold Brew</item>
+        <item>Oleato™ Caffè Latte with Oatmilk</item>
+        <item>Oleato™ Iced Shaken Espresso</item>
+        <item>Iced Chai Tea Latte</item>
+        <item>Iced Matcha Tea Latte</item>
+        <item>Paradise Drink Starbucks Refreshers®</item>
+        <item>Dragon Drink® Starbucks Refreshers®</item>
+        <item>Caffè Americano</item>
+        <item>Featured Blonde Roast</item>
+        <item>Oleato Gingerbread Oatmilk Latte</item>
+        <item>Oleato Golden Foam™ Cold Brew</item>
+        <item>Oleato™ Caffè Latte with Oatmilk</item>
+        <item>Oleato™ Iced Shaken Espresso</item>
+        <item>Iced Chai Tea Latte</item>
+        <item>Iced Matcha Tea Latte </item>
+        <item>Paradise Drink Starbucks Refreshers®</item>
+        <item>Dragon Drink® Starbucks Refreshers®</item>
+    </string-array>
+
+    <string-array name="data_description">
+        <item>Starbucks® Blonde Espresso Roast infused with Partanna® extra virgin olive oil, with steamed oatmilk and notes of warm gingerbread. Finished with a subtle dusting of bright ginger and citrus.</item>
+        <item>Cold foam contrasts with dark, smooth cold brew, yielding an inviting aroma with lush Partanna® infused cold foam.</item>
+        <item>Starbucks Blonde Espresso infused with Partanna® extra virgin olive oil, steamed with oatmilk. Velvety smooth. Deliciously lush.</item>
+        <item>Layers of flavor — coffee forward and lightly sweetened with notes of toasted nuts, rich espresso, and creamy oatmilk infused with Partanna® extra virgin olive oil.</item>
+        <item>Black tea infused with cinnamon, clove and other warming spices is combined with milk and ice for the perfect balance of sweet and spicy. Topped with lush Partanna® extra virgin olive oil infused cold foam.</item>
+        <item>Smooth and creamy matcha sweetened just right, served with milk over ice and topped with lush Partanna® extra virgin olive oil infused cold foam. Green has never tasted so good.</item>
+        <item>Tropical flavors of pineapple and passionfruit combine with diced pineapple and creamy coconutmilk to create a delicious island escape. Topped with lush Partanna® extra virgin olive oil infused cold foam.</item>
+        <item>Crafted with sweet mango and dragonfruit flavors and hand-shaken with creamy coconutmilk, ice and a scoop of real diced dragonfruit. Topped with lush Partanna® extra virgin olive oil infused cold foam.</item>
+        <item>Espresso shots topped with hot water create a light layer of crema culminating in this wonderfully rich cup with depth and nuance.</item>
+        <item>Discover one of our featured Starbucks® Blonde Roasts, radiant blends that awaken your senses with delicate flavors and vibrant aromas. These enchanting brews deliver a smooth and invigorating experience that will brighten your mornings and elevate your coffee moments.</item>
+        <item>Starbucks® Blonde Espresso Roast infused with Partanna® extra virgin olive oil, with steamed oatmilk and notes of warm gingerbread. Finished with a subtle dusting of bright ginger and citrus.</item>
+        <item>Cold foam contrasts with dark, smooth cold brew, yielding an inviting aroma with lush Partanna® infused cold foam.</item>
+        <item>Starbucks Blonde Espresso infused with Partanna® extra virgin olive oil, steamed with oatmilk. Velvety smooth. Deliciously lush.</item>
+        <item>Layers of flavor — coffee forward and lightly sweetened with notes of toasted nuts, rich espresso, and creamy oatmilk infused with Partanna® extra virgin olive oil.</item>
+        <item>Black tea infused with cinnamon, clove and other warming spices is combined with milk and ice for the perfect balance of sweet and spicy. Topped with lush Partanna® extra virgin olive oil infused cold foam.</item>
+        <item>Smooth and creamy matcha sweetened just right, served with milk over ice and topped with lush Partanna® extra virgin olive oil infused cold foam. Green has never tasted so good.</item>
+        <item>Tropical flavors of pineapple and passionfruit combine with diced pineapple and creamy coconutmilk to create a delicious island escape. Topped with lush Partanna® extra virgin olive oil infused cold foam.</item>
+        <item>Crafted with sweet mango and dragonfruit flavors and hand-shaken with creamy coconutmilk, ice and a scoop of real diced dragonfruit. Topped with lush Partanna® extra virgin olive oil infused cold foam.</item>
+        <item>Espresso shots topped with hot water create a light layer of crema culminating in this wonderfully rich cup with depth and nuance.</item>
+        <item>Discover one of our featured Starbucks® Blonde Roasts, radiant blends that awaken your senses with delicate flavors and vibrant aromas. These enchanting brews deliver a smooth and invigorating experience that will brighten your mornings and elevate your coffee moments.</item>
+        <item>Starbucks® Blonde Espresso Roast infused with Partanna® extra virgin olive oil, with steamed oatmilk and notes of warm gingerbread. Finished with a subtle dusting of bright ginger and citrus.</item>
+        <item>Cold foam contrasts with dark, smooth cold brew, yielding an inviting aroma with lush Partanna® infused cold foam.</item>
+        <item>Starbucks Blonde Espresso infused with Partanna® extra virgin olive oil, steamed with oatmilk. Velvety smooth. Deliciously lush.</item>
+        <item>Layers of flavor — coffee forward and lightly sweetened with notes of toasted nuts, rich espresso, and creamy oatmilk infused with Partanna® extra virgin olive oil.</item>
+        <item>Black tea infused with cinnamon, clove and other warming spices is combined with milk and ice for the perfect balance of sweet and spicy. Topped with lush Partanna® extra virgin olive oil infused cold foam.</item>
+        <item>Smooth and creamy matcha sweetened just right, served with milk over ice and topped with lush Partanna® extra virgin olive oil infused cold foam. Green has never tasted so good.</item>
+        <item>Tropical flavors of pineapple and passionfruit combine with diced pineapple and creamy coconutmilk to create a delicious island escape. Topped with lush Partanna® extra virgin olive oil infused cold foam.</item>
+        <item>Crafted with sweet mango and dragonfruit flavors and hand-shaken with creamy coconutmilk, ice and a scoop of real diced dragonfruit. Topped with lush Partanna® extra virgin olive oil infused cold foam.</item>
+    </string-array>
+
+    <string-array name="data_image">
+        <item>https://globalassets.starbucks.com/digitalassets/products/bev/OleatoGingerbreadLatte.jpg?impolicy=1by1_wide_topcrop_630</item>
+        <item>https://globalassets.starbucks.com/digitalassets/products/bev/Oleato_GoldenFoam_ColdBrew.jpg?impolicy=1by1_wide_topcrop_630</item>
+        <item>https://globalassets.starbucks.com/digitalassets/products/bev/Oleato_CaffeLatte.jpg?impolicy=1by1_wide_topcrop_630</item>
+        <item>https://globalassets.starbucks.com/digitalassets/products/bev/Oleato_ToffeeNut_ShakenEspresso.jpg?impolicy=1by1_wide_topcrop_630</item>
+        <item>https://globalassets.starbucks.com/digitalassets/products/bev/SBX20230406_1723_IcedChaiTeaLatte-GoldenFoam-onGray_sRGB-1800.jpg?impolicy=1by1_wide_topcrop_630</item>
+        <item>https://globalassets.starbucks.com/digitalassets/products/bev/SBX20211029_7356_IcedMatchaTeaLatte-GoldenFoam-onGray_sRGB-1800.jpg?impolicy=1by1_wide_topcrop_630</item>
+        <item>https://globalassets.starbucks.com/digitalassets/products/bev/SBX20221014_4603_ParadiseDrink-GoldenFoam-onGray_sRGB-1800.jpg?impolicy=1by1_wide_topcrop_630</item>
+        <item>https://globalassets.starbucks.com/digitalassets/products/bev/SBX20221014_4538_DragonDrink-GoldenColdFoam-onGray_sRGB-1800.jpg?impolicy=1by1_wide_topcrop_630</item>
+        <item>https://globalassets.starbucks.com/digitalassets/products/bev/SBX20190617_CaffeAmericano.jpg?impolicy=1by1_wide_topcrop_630</item>
+        <item>https://globalassets.starbucks.com/digitalassets/products/bev/Veranda_Blend_Hot.jpg?impolicy=1by1_wide_topcrop_630</item>
+        <item>https://globalassets.starbucks.com/digitalassets/products/bev/SBX20190617_PikePlaceRoast.jpg?impolicy=1by1_wide_topcrop_630</item>
+        <item>https://globalassets.starbucks.com/digitalassets/products/bev/SBX20190617_FeaturedDarkRoast.jpg?impolicy=1by1_wide_topcrop_630</item>
+        <item>https://globalassets.starbucks.com/digitalassets/products/bev/SBX20190617_DecafPikePlaceRoast.jpg?impolicy=1by1_wide_topcrop_630</item>
+        <item>https://globalassets.starbucks.com/digitalassets/products/bev/SBX20190617_DecafPikePlaceRoast.jpg?impolicy=1by1_wide_topcrop_630</item>
+        <item>https://globalassets.starbucks.com/digitalassets/products/bev/SBX20190617_BlondeRoast.jpg?impolicy=1by1_wide_topcrop_630</item>
+        <item>https://globalassets.starbucks.com/digitalassets/products/bev/SBX20190617_BlondeRoast.jpg?impolicy=1by1_wide_topcrop_630</item>
+        <item>https://globalassets.starbucks.com/digitalassets/products/bev/SBX20190617_BlondeRoast.jpg?impolicy=1by1_wide_topcrop_630</item>
+        <item>https://globalassets.starbucks.com/digitalassets/products/bev/SBX23-721653_MalawiSableFarms_2023_WBReserve_Card.jpg?impolicy=1by1_wide_topcrop_630</item>
+        <item>https://globalassets.starbucks.com/digitalassets/products/bev/SBX22-507317_VietnamDalat_2023_WBReserve_Card.jpg?impolicy=1by1_wide_topcrop_630</item>
+        <item>https://globalassets.starbucks.com/digitalassets/products/bev/SBX20190617_Cappuccino.jpg?impolicy=1by1_wide_topcrop_630</item>
+        <item>https://globalassets.starbucks.com/digitalassets/products/bev/SBX20190617_Espresso_Single.jpg?impolicy=1by1_wide_topcrop_630</item>
+        <item>https://globalassets.starbucks.com/digitalassets/products/bev/SBX20190617_EspressoConPanna.jpg?impolicy=1by1_wide_topcrop_630</item>
+        <item>https://globalassets.starbucks.com/digitalassets/products/bev/SBX20230406_FlatWhite.jpg?impolicy=1by1_wide_topcrop_630</item>
+        <item>https://globalassets.starbucks.com/digitalassets/products/bev/SBX20230406_HoneyAlmondmilkFlatWhite.jpg?impolicy=1by1_wide_topcrop_630</item>
+        <item>https://globalassets.starbucks.com/digitalassets/products/bev/3Gingerbread%20Latte1800%201.jpg?impolicy=1by1_wide_topcrop_630</item>
+        <item>https://globalassets.starbucks.com/digitalassets/products/bev/SBX20220607_1549_SugarCookieOatLatte-CAN-onGreen-MOP_1800.jpg?impolicy=1by1_wide_topcrop_630</item>
+        <item>https://globalassets.starbucks.com/digitalassets/products/bev/SBX20220607_1401_CaramelBruleeLatte-onGreen-MOP_1800.jpg?impolicy=1by1_wide_topcrop_630</item>
+        <item>https://globalassets.starbucks.com/digitalassets/products/bev/ChestnutPralineLatte-onGreen.jpg?impolicy=1by1_wide_topcrop_630</item>
+    </string-array>
+
 </resources>
